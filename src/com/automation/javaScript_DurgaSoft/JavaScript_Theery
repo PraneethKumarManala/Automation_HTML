@@ -1,0 +1,206 @@
+Java Script:
+*********************
+1.Client side scripting language
+2.Case sensitivity language
+3.It is a Interpreted Language
+  Any language can be divided into 2 types
+  1.Compiled Language
+    Runs at a time
+    Displays all errors in the program  
+    eg:c,c++,java
+  2.Interpreted Language
+    Line-by-line execution
+    or
+    Step by step execution
+    eg: JavaScript,PHP
+    It can show only one error message at a time.
+    when ever we get an error the programme execution stops there only.
+4.It is a Object oriented language   
+*********************************************************************************************************************
+Uses of Java script:
+********************
+1.form validation(Checking the forms for errors it called form validation)
+  Success message====>it ok
+  error message ====>if errors are present
+2.Popup ads:-
+  The adds that will open automatically depending upon the user action  
+3.Dynamic Pages:-
+  User interaction pages
+  user can modify the content of the site at runtime.
+*********************************************************************************************************************
+Syntax of java script :
+**********************   
+1.Mehtod1.
+<script type="text/javascript">
+code
+</script>
+Method2
+<script language="javascript">
+code
+</script>
+
+2.we can use java scipt code in <head> tag as well as <body> tag
+we can write the javascript code in external file(we have to save the file with .js extension)
+
+3.<script type="text/javascript" src="path of the jacascript file">
+  </cript>
+*********************************************************************************************************************
+History of Javascript
+***********************
+1.It was invented by Brendon Eich in the year 1994 at netscape navigator
+Initial name is livescript or mocha
+2.But in the year of 1996 declared the name as Javascript(ECMA organization declared)  
+*********************************************************************************************************************
+Printing Statement
+**********************
+1.document.write("")
+eg:
+***
+document.write("Welcome")
+
+Note:-
+We can use all html tags and css properties but we should use then inside the document.write double quotations only.
+*********************************************************************************************************************
+Comments:
+***********
+1.User understanding purpose
+2.they will never print in the output
+3.2 ways
+  1.single line comment == //
+  2.multi line comment == /*.........*/
+********************************************************************************************************************* 
+Syntax of variables
+********************
+var variablename=value;
+
+eg: 
+var a=10;
+var b=15.24
+var c="a";
+var sname="Praneeth";
+
+*********************************************************************************************************************
+Operators:
+**************
+1.They are used to perform operations on variables.
+  1)Arithematic operator
+  2.comparision operators
+  3.Logical operators
+  
+*********************************************************************************************************************
+Funtions:
+*********
+Block of code which can be executed it no of time
+
+1.User Defined functions
+************************
+
+
+2.Pre defines funtions
+***********************
+1.String functions:-
+********************
+<script type="text/javascript">
+var s1="Welcome to the class";
+document.write("<h2>");
+document.write("String Length:"+s1.length+"<br>");//including space
+document.write("Character At:"+s1.charAt(8)+"<br>");
+document.write("Character At:"+s1.lastIndexOf("e")+"<br>");
+document.write("Character At:"+s1.bold()+"<br>");
+document.write("Character At:"+s1.fontcolor("red")+"<br>");
+document.write("Character At:"+s1.fontsize("7")+"<br>");
+</script>
+
+2.Date Functions:-
+*********************
+<script type="text/javascript">
+var d1= new Date();
+
+document.write(d1+"<br>");
+document.write(d1.getDate()+"<br>");
+document.write(d1.getDay()+"<br>");
+document.write(d1.getFullYear()+"<br>");
+document.write(d1.getHours()+"<br>");
+
+</script>
+3.Math functions:-
+******************
+<script type="text/javascript">
+
+document.write(Math.PI+"<br>")
+
+
+document.write(Math.SQRT2+"<br>")
+
+
+document.write(Math.abs(-800)+"<br>")
+
+document.write(Math.ceil(15.01)+"<br>")
+
+document.write(Math.floor(15.99)+"<br>")
+
+document.write(Math.round(15.45)+"<br>")
+document.write(Math.max(15,654,44885,7)+"<br>")
+
+document.write(Math.min(15,654,44885,7)+"<br>")
+
+document.write(Math.pow(2,12)+"<br>")
+</script>
+*************************************************************************************
+Actions or Events:-
+**********************
+Mouse Events:
+*************
+1.onclick
+2.ondblclick
+3.onmouseover
+4.onmouseout
+5.onmousedrag
+**************************
+Keyboard Events:
+******************
+1.onkeypress
+2.onkeyup
+3.onkeydoen
+
+*********************************
+<body> tag ===>onload
+
+<form>  tag===>onsubmit
+
+textboxes,textarea===>Keyboard events, onfocus(),onblur()
+
+<select> tag ====> onchange()
+
+
+**********************************************************************************
+Forms in JavaScript:-
+********************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  

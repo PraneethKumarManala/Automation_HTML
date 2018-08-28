@@ -1,0 +1,84 @@
+<html>
+<head>
+
+<title>FormsTag</title>
+<script type="text/javascript">
+
+function add(){
+	
+	var a=parseInt(f1.t1.value);
+	var b=parseInt(f1.t2.value);
+	var c=a+b;
+	document.getElementById("sample").innerHTML="Addition:"+c;
+
+}
+
+function sub(){
+	
+	var a=parseInt(f1.t1.value);
+	var b=parseInt(f1.t2.value);
+	var c=a-b;
+	document.getElementById("sample").innerHTML="Substraction:"+c;
+
+}
+
+function mul(){
+	
+	var a=parseInt(f1.t1.value);
+	var b=parseInt(f1.t2.value);
+	var c=a*b;
+	document.getElementById("sample").innerHTML="Multiplication:"+c;
+
+}
+
+function div(){
+	
+	var a=parseInt(f1.t1.value);
+	var b=parseInt(f1.t2.value);
+	var c=a/b;
+	document.getElementById("sample").innerHTML="Division:"+c;
+
+}
+</script>
+</head>
+
+<body>
+<form name="f1">
+
+
+<table align="center">
+<tr>
+<td>Enter Number</td>
+<td><input type="text" name ="t1" size=20>  </td>
+
+</tr>
+
+<tr>
+<td>Enter Number</td>
+<td><input type="text" name ="t2" size=20>  </td>
+
+</tr>
+
+</tr>
+
+<tr>
+
+<td colspan=2 align="center"><input type="button" name ="b1" value="Addition" onmouseover="add();">  
+<input type="button" name ="b1" value="Minus" onclick="sub();"> <br><br>  
+<input type="button" name ="b1" value="Multiply" onclick="mul();">  
+<input type="button" name ="b1" value="Division" onclick="div();">  
+</td>
+
+</tr>
+
+
+</table>
+
+</form>
+<div id="sample" style="text-align:center;font-size:28px;color:bule;"></div>
+
+
+
+</body>
+
+</html>

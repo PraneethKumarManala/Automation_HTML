@@ -1,0 +1,43 @@
+Tables:
+******
+To store the data in a form of tables means rows and columns
+
+<table>
+
+
+</table>
+
+eg:
+****
+
+<body>
+<table bgcolor="lightgreen" border="3" bordercolor="blue" width=450 height=350 align="center" 
+       cellpadding=30 cellspacing=20>
+<caption align="top">
+<font size="5" color="red" >Student Details</font>
+</caption>    
+
+<tr>
+<td rowspan/colspan="6" align="center">
+<font size="5" color="red" >Student Details</font>
+</td>
+</tr>
+
+   
+<tr>
+<th>S.No</th>
+<th>Name</th>
+<th>Marks</th>
+<th>City</th>
+</tr>
+
+<tr bgcolor="red">
+<td>101</td>
+<td bgcolor="blue"><font size="5" color="yellow" >Praneeth</font></td>
+<td>90</td>
+<td>Hyderabad</td>
+</tr>
+
+</table>
+
+</body>

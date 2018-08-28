@@ -1,0 +1,117 @@
+HTML Tags :
+**********
+1.Anything which is surrounded by angular brackets is called as tag < >(Angular brackets)
+
+eg: <html>
+---------------------------------------------------------------------------------------------------------
+2.Generally all html tags will have opening and closing tag
+<html> ---> Opening tag
+</html> ---> closing tag
+------------------------------------------------------------------------------------------------------------
+
+3.Types of tags
+
+Three types of tags
+1.constant tags
+2.fixed tags
+3.independent tags
+
+1.constant tags
+*****************
+Must and should tags/compulsary tags
+eg:
+Structure of the website:
+<html>
+<head>
+<title>---------</title>
+<style>.........</style>
+
+</head>
+
+<body>
+Content of the site (text,video,paragraphs,forms,links,images,files.............)
+
+
+</body>
+</html>
+***************************************
+2.Fixed tags
+************
+Other than constant tags which are having both opening and closing are called fixed tags
+eg:
+<h1></h1>
+<font></font>
+<p></p>
+****************************************
+3.Independent tags
+******************
+which hase only opening tag no closing tags
+<br> ---> break the line
+<meta>
+<hr>
+<img>
+
+--------------------------------------------------------------------------------
+HTML TAG Attributes(properties)
+*********************************
+<tagname propertyname="property value">
+
+eg:
+<body bgcolor="red">
+
+-------------------------------------------------------------------------------------
+Browsers
+**********
+A software which are used to open the website
+
+----------------------------------------------------------------------------------------
+If we require a space in between the words use
+
+ &nbsp;  (non breakable space)
+ character entities or properties
+ &copy;  (copyright symbol)
+---------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,145 @@
+1.BodyTag Properties
+*******************
+1.bgcolor(background color) ==> 1.we can give direct color , 2. color code starting with # followed by 6 No's 
+2.background ==>To insert image int he background
+3.text ===> to give text color (the words present in body will come in this color)
+
+eg:
+----
+<body bgcolor=#ff5733 background="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=350.jpeg"
+text="yellow" >
+
+----------------------------------------------------------------------------------------------------------------------------------------
+2.Text Properties
+********************
+1.Headings
+2.General text tags
+3.font properties
+4.paragraph properties
+5.Text reverse
+
+1.Heading
+**********
+1.align==> left/right/center
+2.bold and break are common properties for the headings
+
+<h1 align="center">Welcome</h1>  ===> biggest/larges heading
+<h2 align="left">Welcome</h2>
+<h3 align="right">Welcome</h3>
+<h4>Welcome</h4>
+<h5>Welcome</h5>
+<h6>Welcome</h6> ====> smallest heading
+*********************************************************************
+2.General text tags
+*******************
+
+<body>
+<b>Selenium Automation</b> <br>
+<strong>Selenium Automation</strong> <br>
+<i>Selenium Automation</i> <br>
+<em>Selenium Automation</em> <br>
+<u>Selenium Automation</u><br>
+<s>Selenium Automation</s> <br>
+<b><i><u>Selenium Automation Testing</u></i></b>  <br>
+<big>Selenium</big> <br>
+<small>Selenium</small> <br>
+<code>Selenium Praneeth</code> <br>
+H<sub>2</sub>O <br>
+
+(a+b)<sup>2</sup>=a<sup>2</sup>+b<sup>2</sup>+2ab <br>
+
+<pre>
+Name                     Mobile                City
+--------------------------------------------------------
+Praneeth               9100108111			Hyderabad
+
+
+</pre>
+
+</body>
+**************************************************************************
+3.FontTag
+**********
+1.hr===>Horizontal line
+2.center ===> will come in center of the page
+
+eg:
+
+<center>
+<font size=7 color ="red" face="Script" >
+Selenium Automation
+</font>
+<hr size="5" color="blue" width="425">
+</center>
+******************************************************************************
+4.Paragraph
+************
+1.align===> left/right/center/justify
+
+eg:
+****
+<body>
+<font size="4" color="green" >
+<p align="justify">
+What is WebService?
+  
+Web Services is the mechanism or the medium of communication through which two applications / machines will exchange the data irrespective of their underline architecture and the technology.
+
+Why is WebService Needed?
+         
+In general, software applications are developed to be consumed by the human beings, where a person sends a request to a software service which in-turn returns a response in human readable format.
+
+In the modern era of technology if you want to build a software application you don't need to build each and everything from scratch. There are lots of readymade services available which you can plug into your application and you can start providing those services in your application.
+
+For example you want to display weather forecast information you don't need to collect, process and render the data in your application. You can buy the services from the people who already well-established in processing and publishing such kind of data.
+
+Web services allow us to do these kind of implementations.  
+
+
+</p>
+</font>
+
+</body>
+********************************************************************************************
+5.Text reverse
+****************
+1.bdo===> Bidirectinal Object
+2.dir===>direction
+3.rtl===> right to left
+4.ltr===> left to right
+eg:
+<body>
+<bdo dir="rtl">Praneeth Kumar Manala</bdo>
+</body>
+
+************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

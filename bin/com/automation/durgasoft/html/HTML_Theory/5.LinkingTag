@@ -1,0 +1,28 @@
+Linking Tag:
+************
+1.To give llink between webpages
+2.To give link to files(images, pdf , doc)
+3.To give linking from one point to another point(same page linking)
+
+
+1.a====>anchor tag
+2.href====>hyper referance
+3.target====> _new/_blank/_self
+4.title ===> If we place mouse on the link entered text will show
+
+
+eg:
+***
+<a href="" target="_new" title="some text">
+</a>
+
+
+eg:
+
+<a name="a1" href="#a2">
+<h2>BOTTOM</h2>
+</a>
+
+<a name="a2" href="#a1" >           
+<h2>TOP</h2>   
+</a>  

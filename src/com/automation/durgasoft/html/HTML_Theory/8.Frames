@@ -1,0 +1,30 @@
+Frames:
+******
+To divide the webpage into parts or blocks
+we can divide the page into rows or columns
+
+<frameset>
+
+</frameset>
+
+Note:
+*****
+We should not use body tag inside the frames.
+
+eg:(No body tag)
+***
+
+<frameset rows="10% ,80%,10%" bordercolor="green">
+
+
+<frame src="file:///C:/Users/pmanala/workspace_New/HTML_Demo/src/com/automation/durgasoft/html/multimediaTags/14.ImagesFrames.html">
+
+<frameset cols="35% ,35% , 30%" >
+<frame noresize="noresize" name="f1" src=>
+<frame noresize="noresize" name="f2"  src=>
+<frame noresize="noresize" name="f3"  src=>
+</frameset>
+
+<frame src=>
+
+</frameset>

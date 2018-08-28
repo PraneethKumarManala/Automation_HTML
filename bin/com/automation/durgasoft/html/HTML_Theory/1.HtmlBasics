@@ -1,0 +1,92 @@
+HTML : Hyper Text Markup Language
+WebPage:A single page which contains some information
+WebSite:collection of webpages
+URL:Uniform Resource Locator
+--------------------------------------------------------------------------------------
+eg:
+http://www.google.com
+
+http:
+Protocols : A set of rules followed by the browser.
+
+1) http:Hyper text transfer protocol
+It is used for transfering the site from server to the user system 
+
+2) FTP:File transfer protocol:
+we can transfer the files from our system to the server and vice-versa
+FTP Path
+FTP Userame
+FTP Password
+
+3) SMTP : Simple Mail Transfer Protocol
+Mainly used for mailing purpose
+------------------------------------------------------------------------------------
+www : world wide web(Internet)
+********************************
+-------------------------------------------------------------------------------------
+DomainName
+***********
+google ===> domain name/website name
+----------------------------------------------------------------------------------------
+Extensions
+*********
+.com =====> commercial
+.in  -  Indial
+.org - organization
+.net - network enable technology
+.gov - government
+.info - information
+.edu - education or university
+.mil - miltary website
+-----------------------------------------------------------------------------------------
+Hosting:
+*********
+Space providing for the website
+
+Types of Hosting:
+*****************
+1.windows hosting
+2.linux hosting
+3.shared hosting
+4.reseller hosting
+5.VPS hosting(Virtual private servers)--ecomers/amazon(site works in 365 days)
+6.Dedicated hosting(google/facebook...)(More powerful and expensive)
+ 
+------------------------------------------------------------------------------------------
+Factors to be checked when you are going to purchase hosting
+*************************************
+1.Space(1gb to unlimited we can purchase)
+2.bandwidth:(when ever every site is opened it will accupy some memory in the server)(1gb to unlimited)
+3.sub domains : 
+eg:
+Mainsite: www.apnajobs.com
+subdomainsite: www.hyderabad.apnajobs.com
+4.email accunts
+hr@charterglobal.com
+
+-------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

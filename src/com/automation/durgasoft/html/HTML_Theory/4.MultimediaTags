@@ -1,0 +1,96 @@
+MultimediaTags/GraphicalTags
+******************
+1.Images
+2.Video
+3.Audio
+4.Flash Files
+5.Markquee
+
+**************************************************************************
+1.Images
+********
+1.img===> Image
+2.alt===> Alternative text (if we will give invalid image path that time this text will appear on the place of image)
+3.src===> source of th image
+4.border ===> Image border
+5.hspace===> Horizontal space
+6.vspace===> Vertical space
+
+eg:
+***
+<body >
+<img alt="This is Goa Beach Photo" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=350.jpeg" width="450" height="350"
+           border="3" hspace="300" vspace="300">
+
+           
+</body>
+**********************************************************
+2.Video
+**********
+1.dynsrc==>dynamic source
+eg:
+
+<body >
+<img dynsrc="C:/Users/Public/Videos/Sample Videos/Wildlife.wmv" width="300" height="250" start="mouseover" loop=4></img>
+<br><br>
+<embed src="C:/Users/Public/Videos/Sample Videos/Wildlife.wmv" width="300" height="250">
+           
+</body>
+*************************************************************
+3.Audio
+*******
+
+<body >
+<bgsound src="C:\Users\Public\Music\Sample Music\Kalimba.mp3" loop="5" >
+
+<embed src="C:\Users\Public\Music\Sample Music\Kalimba.mp3" >
+           
+</body>
+
+****************************************************************
+4.Flash Files
+*************
+Generally Flash files are present in .swf formate
+
+eg:
+***
+<body >
+<embed src="C:\Users\pmanala\Downloads\FlashFile.swf" height="300" width="200">
+           
+</body>
+
+*******************************************************************
+5.Markquee
+************
+1.direction===>left /right/up/down
+2.behavior===> scroll(default)/slide/alternate
+3.scrollamount===>speed of the marquee (default value is 8)
+
+eg:
+****
+
+<body >
+<marquee bgcolor="yellow" direction="right" behavior="alternate" scrollamount="50" loop="2">
+<font size="5" color="Red">Welcome</font>
+
+ </marquee>
+</body>
+
+*******************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+DOCTYPE Declaration :- (DTD)
+********************************
+It is an instruction to the browser.
+It is not a tag
+It will that which version of markup language we are using in the browser.
+
+HTML 4
+In HTML 4 we have 3 doctype declaration(dtd)
+1) HTML 4.01 Strict
+  In That page i cannot use <frames>,<font>,<center> tags
+
+2) HTML 4.01 Transistinal
+   I cannot use only <frames>
+   
+3) HTML 4.01 frameset
+   Every tag will work
+        
+Now days we are going to use HTML 5 doctype
+<!DOCTYPE html>
+        
+*******************************************************
+HTML Meta tags:-
+****************
+syntax:
+
+<meta name="" content="">
+
+Note:
+*****
+we should write the meta tags compulsary in the <head> section only
+
+Meta gives the information about the webpage to the search engines (google , bing , etc...)
+
+1)Title of the page
+<meta name="title" content="Durga Soft Solutions">
+
+2) Description :-
+
+<meta name="description" content="......">
+
+3) Keywords
+
+<meta name="keywords" content="telugu songs,telugu movies">
+
+4) Author Information
+
+<meta name="Author" name="Praneeth">
+
+
+        
+        

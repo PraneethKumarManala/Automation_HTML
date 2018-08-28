@@ -1,0 +1,82 @@
+<html>
+<head>
+
+<title>Functions</title>
+<script type="text/javascript">
+
+//1.No Arguments and No return Type
+function display(){
+	document.write("<h2>Welcome</h2>")
+}
+
+display();
+
+//2.With Arguments and No return Type
+
+function add(a,b){
+	var c=a+b;
+	document.write(c+"<br>");
+}
+
+add(105,105);
+
+//3.With Out Arguments and with return Type
+
+function sum(){
+	
+	var a=10;
+	var b=20;
+	var c=a+b;
+	return c;
+	
+}
+
+var result=sum();
+document.write(result+"<br>");
+
+//4.With Arguments and with return Type
+
+function total(a,b){
+	
+
+	var c=a+b;
+	return c;
+	
+}
+
+var res=total(50,40);
+document.write(res);
+
+//5.Nested Functions(Function inside another function)
+
+function show(){
+	
+	document.write("<h2>I am From Show</h2>");
+}
+function see(){
+	
+	show();
+	document.write("<h2>I am From See</h2>")
+}
+
+function Hello(){
+	
+    see();
+	document.write("<h2>I am From Hello</h2>")
+}
+
+Hello();
+
+</script>
+
+
+
+</head>
+
+<body>
+
+
+
+</body>
+
+</html>

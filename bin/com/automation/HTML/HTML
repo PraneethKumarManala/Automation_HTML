@@ -1,0 +1,11 @@
+<html>
+<head>
+<meta charset="utf-8"> ----> only starting tag
+<title>enter the title <title/>
+</head>
+
+<body>
+<h1>----> Heading tag
+<p> ----> Paragraph tag
+
+</body>
